@@ -23,6 +23,7 @@ h1,h2,h3,h4,h5,h6{
 .flex{
     display:flex;
 }
+
 .column{
     flex-direction: column;
 }
@@ -112,4 +113,14 @@ h1,h2,h3,h4,h5,h6{
 }
 .card-content p{
     font-size: 18px;
+}
+
+@media(max-width: 800px){
+    #activities .flex{
+        display:block;
+        text-align:center;
+        width: 100%;
+        padding:0;
+        margin:0;
+    }    
 }
