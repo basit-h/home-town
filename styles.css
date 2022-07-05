@@ -1,0 +1,115 @@
+@font-face{
+    src:url("SummerDays-PersonalUse.ttf");
+    font-family: summer;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+    font-size: 16px;
+    color: #222;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "summer";
+}
+.text-center{
+    text-align:center;
+}
+.underline{
+    border-bottom: 5px solid #fff;
+    padding-bottom: 5px;
+    border-radius: 1px;;
+}
+.flex{
+    display:flex;
+}
+.column{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.space-around{
+    justify-content: space-around;
+}
+.align-items-center{
+    align-items: center;
+}
+.m-5{
+    margin: 50px;
+}
+#hero{
+    background-image: url("images/hunza-gilgit-baltistan.jpg");
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;
+    color: #fff;
+    
+}
+#hero h1{
+    font-size: 2.7rem;
+    text-shadow: 0 0 2px black;
+    margin:0 0;
+    background:#48341CCC;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+#hero h2{
+    background: #A38512AA;
+    padding: 20px 20px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+/* Activiteis */
+
+#activities{
+    background-color: #d3d3d3;
+    padding-top: 20px;
+    text-align: center;
+}
+.activity-card{
+    width: 25%;
+    padding: 20px;
+}
+.activity-card img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px #00000050;
+}
+
+#activities > h3{
+    font-size: 2.3rem;
+    text-decoration: underline;
+}
+
+/* Card section */
+#guide{
+    padding-bottom: 50px;
+}
+.card{
+    width: 500px;
+    margin: 0 auto;
+    background: #E5DCC5;
+    padding: 50px;
+    border-bottom: 8px solid #e5aCc5;
+    border-radius: 15px;
+    color: #fff;
+    text-shadow: 0 0 4px black;
+}
+.card img{
+    width: 200px;
+    margin-right: 20px;
+}
+.card .card-content{
+    border-left: 1px solid white;
+    padding: 20px;
+}
+.card-content h2{
+    font-size: 2rem;
+}
+.card-content p{
+    font-size: 18px;
+}
